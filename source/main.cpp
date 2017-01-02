@@ -1,11 +1,6 @@
 // main.cpp
-#include <windows.h>
-using namespace std;
-
 // Veldig basic vektor-operasjoner
-#include "utils/linear.h"
-
-
+#include "utils/entities.h"
 
 int main()
 {
@@ -17,3 +12,31 @@ int main()
 	test.print();
 	return 0;
 }
+
+class World
+{
+	private:
+		Camera cam;
+		vector<spoint> s;
+		
+	public:
+		World(Camera c)
+		{
+			cam = c;
+		}
+		
+		void addSpoint(spoint sv)
+		{
+			s.push_back(sv);
+		}
+		
+		vector<point> generate()
+		{
+			// Project onto 2D
+			vector<point> ans(s.size());
+			for(int i = 0; i < s.size(); i++)
+			{
+				spoint diff 
+			}
+		}
+};
