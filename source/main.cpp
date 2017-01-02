@@ -1,13 +1,11 @@
-// Basic projection main
-
-#include <iostream>
-#include <vector>
-
+// main.cpp
+#include <windows.h>
 using namespace std;
 
-// Min kode
+// Veldig basic vektor-operasjoner
 #include "utils/linear.h"
-//#include "utils/spoint.cpp"
+
+
 
 int main()
 {
