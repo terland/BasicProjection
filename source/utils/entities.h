@@ -21,11 +21,13 @@ class PhysicalEntity // So far - physical entity is a vector of points. Triangul
 
 class Camera
 {
-	spoint pos;
-	spoint dir; // size 1!
+	
 	
 	public:
+		spoint pos;
+		spoint dir; // size 1!
 		Camera(spoint p, spoint d);
+		Camera();
 };
 
 class Cube : public PhysicalEntity

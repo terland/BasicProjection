@@ -35,5 +35,11 @@ Cube::Cube(double size, spoint startPos)
 Camera::Camera(spoint p, spoint d)
 {
 	spoint dir2 = d * (1/(sqrt(d.dot(d))));	
+	dir = dir2;
 	pos = p;
+}
+
+Camera::Camera()
+{
+	
 }
