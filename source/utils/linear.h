@@ -3,6 +3,8 @@
 #include <vector>
 #include <iostream>
 #include <cmath>
+
+
 using namespace std;
 
 struct spoint

@@ -34,4 +34,7 @@ class Cube : public PhysicalEntity
 {
 	public:
 		Cube(double size, spoint startPos);
+		void RotateX(double rad);
+		void RotateY(double rad);
+		
 };

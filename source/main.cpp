@@ -1,8 +1,10 @@
 // main.cpp
 // Veldig basic vektor-operasjoner
-#include "utils/entities.h"
+#include "entities.h"
+#include "std"
+#include <iostream>
 
-
+/*
 class World
 {
 	private:
@@ -48,18 +50,16 @@ class World
 			
 			return ans;
 		}
+		
 };
+
+*/
 
 int main()
 {
 	cout << "Hello world!" << endl;
-	
-	//spoint s = spoint(1,1,1);
-	nvec test(4);
-	
-	test.print();
-	
-	World w(Camera(spoint(0,0,-1),spoint(0,0,1)));
+
+	/*World w(Camera(spoint(0,0,-1),spoint(0,0,1)));
 	Cube c(1,spoint(-1,0,5));
 	
 	
@@ -73,6 +73,12 @@ int main()
 	for(int i = 0; i < p.size(); i++)
 	{
 		cout << p[i].x << ", " << p[i].y << endl;
-	}
+	}*/
+
+	cout << "Hei " << endl;
+	return 0;
+}
+int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR pCmdLine, int nCmdShow)
+{
 	return 0;
 }

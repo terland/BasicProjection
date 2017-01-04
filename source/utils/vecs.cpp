@@ -102,15 +102,17 @@ nvec nvec::operator*(double a) // scalar multiplication
 	{
 		ans.setPos(i, pos[i]*a);
 	}
+
+	return ans;
 }
 
 void nvec::print()
 {
-	cout << n << ": ";
+	//cout << n << ": ";
 	for(int i = 0; i < n; i++)
 	{
-		cout << pos[i] << " ";
+		//cout << pos[i] << " ";
 	}
 	
-	cout << endl;
+	//cout << endl;
 }

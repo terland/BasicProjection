@@ -1,0 +1,6 @@
+﻿  main.cpp
+..\source\main.cpp(80): error C2146: syntax error: missing ';' before identifier 'wWinMain'
+..\source\main.cpp(80): error C2065: 'HINSTANCE': undeclared identifier
+..\source\main.cpp(80): error C2146: syntax error: missing ')' before identifier 'hInstance'
+..\source\main.cpp(81): error C2143: syntax error: missing ';' before '{'
+..\source\main.cpp(81): error C2447: '{': missing function header (old-style formal list?)
